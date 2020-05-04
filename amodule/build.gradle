@@ -7,6 +7,7 @@ sourceSets {
             srcDir 'src/test-integration/resources'
         }
     }
+    //Error is here
     compileClasspath += rootProject.project('bmodule').sourceSets.intTest.output
     runtimeClasspath += rootProject.project('bmudule').sourceSets.intTest.output
 }
